@@ -9,7 +9,7 @@ function showImage()
         dc: 'src/whitehouse.jpg',
         'new york': 'src/nyc.jpg',
         california: 'src/ca.jpg',
-        answertopic: imageContainer.innerHTML = '<p>nice catch</p>',
+
     };
 
     imageContainer.innerHTML = ''; // Clear previous images
@@ -17,7 +17,11 @@ function showImage()
         const img = document.createElement('img');
         img.src = states[stateInput];
         imageContainer.appendChild(img);
-    } else {
+    }
+    else if (states == "answertopic"){
+        imageContainer.innerHTML = '<p>nice catch but still got you</p>'
+    }
+    else {
         imageContainer.innerHTML = '<p>No image found for this state. Please check your spelling and try again.</p>';
     }
 }
