@@ -9,6 +9,7 @@ function showImage()
         dc: 'src/nationalmall.jpg',
         'new york': 'src/whitehouse.jpg',
         california: 'src/dc.jpg'
+        answertopic: imageContainer.innerHTML = '<p>nice catch</p>';
     };
 
     imageContainer.innerHTML = ''; // Clear previous images
