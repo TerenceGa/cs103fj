@@ -4,11 +4,11 @@ function showImage()
     const stateInput = document.getElementById('stateInput').value.toLowerCase();
     const imageContainer = document.getElementById('imageContainer');
     const states = {
-        massachusetts: 'project/src/dc.jpg', // Replace with actual path
-        connecticut: 'project/src/lincolnmemorial.jpg',
-        dc: 'project/src/nationalmall.jpg',
-        'new york': 'project/src/whitehouse.jpg',
-        california: 'dc.jpg'
+        massachusetts: 'src/dc.jpg', // Replace with actual path
+        connecticut: 'src/lincolnmemorial.jpg',
+        dc: 'src/nationalmall.jpg',
+        'new york': 'src/whitehouse.jpg',
+        california: 'src/dc.jpg'
     };
 
     imageContainer.innerHTML = ''; // Clear previous images
