@@ -46,10 +46,10 @@ nav {
 
 nav li {
     list-style: none;
-    font-size: 1.2vw; /* Reduced from 1.5vw to fit better */
-    padding: 8% 10%; /* Adjusted padding for better fit */
-    color: #FFEFD5;
-    white-space: nowrap; /* Prevents text from wrapping */
+    font-size: 1vw; /* Reduced from 1.2vw to give more space */
+    padding: 1.5% 1%; /* Reduced horizontal padding */
+    color: navy;
+    display: block; /* Ensure each nav item is on its own line */
 }
 
 nav ul {
@@ -123,6 +123,8 @@ img{
     nav ul{
         margin: auto;
         width: 100%;
+        padding: 2% 0; /* Reduce padding on smaller screens */
+        font-size: 4vw;
         text-align: center;
     }
     header {
