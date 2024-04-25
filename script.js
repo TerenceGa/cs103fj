@@ -4,12 +4,12 @@ function showImage()
     const stateInput = document.getElementById('stateInput').value.toLowerCase();
     const imageContainer = document.getElementById('imageContainer');
     const states = {
-        massachusetts: 'src/whitehouse.jpg', // Replace with actual path
-        connecticut: 'src/lincolnmemorial.jpg',
-        dc: 'src/nationalmall.jpg',
-        'new york': 'src/whitehouse.jpg',
-        california: 'src/dc.jpg'
-        answertopic: imageContainer.innerHTML = '<p>nice catch</p>';
+        massachusetts: 'src/mass.jpg', // Replace with actual path
+        connecticut: 'src/Conne.jpeg',
+        dc: 'src/whitehouse.jpg',
+        'new york': 'src/nyc.jpg',
+        california: 'src/ca.jpg',
+        answertopic: imageContainer.innerHTML = '<p>nice catch</p>',
     };
 
     imageContainer.innerHTML = ''; // Clear previous images
