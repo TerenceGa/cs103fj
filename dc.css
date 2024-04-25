@@ -38,10 +38,12 @@ p{
     font-size: 1.2vw;
 }
 
-nav{
+nav {
     background-color: navy;
     width: 60%;
+    box-sizing: border-box; /* Makes sure padding is included in the width */
 }
+
 nav li {
     list-style: none;
     font-size: 1.2vw; /* Reduced from 1.5vw to fit better */
@@ -49,9 +51,13 @@ nav li {
     color: #FFEFD5;
     white-space: nowrap; /* Prevents text from wrapping */
 }
-nav ul{
-    padding-left: 2%;
+
+nav ul {
+    padding-left: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
     text-align: left;
+    display: flex; /* Makes the items flex items, adjusting better to space */
+    flex-wrap: wrap; /* Allows items to wrap if needed */
 }
 main{
     padding: 2%;
