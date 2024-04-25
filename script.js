@@ -4,7 +4,7 @@ function showImage()
     const stateInput = document.getElementById('stateInput').value.toLowerCase();
     const imageContainer = document.getElementById('imageContainer');
     const states = {
-        massachusetts: 'src/dc.jpg', // Replace with actual path
+        massachusetts: 'src/whitehouse.jpg', // Replace with actual path
         connecticut: 'src/lincolnmemorial.jpg',
         dc: 'src/nationalmall.jpg',
         'new york': 'src/whitehouse.jpg',
