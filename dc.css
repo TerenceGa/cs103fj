@@ -123,14 +123,14 @@ img{
     nav ul{
         margin: auto;
         width: 100%;
-        padding: 2% 0; /* Reduce padding on smaller screens */
+
         font-size: 4vw;
         text-align: center;
     }
     header {
         text-align: center;
     }
-    main {
+    main    {
         width: 100%;
         display: flex;
         flex-direction: column;
