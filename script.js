@@ -6,7 +6,7 @@ function showImage()
     const states = {
         massachusetts: 'project/src/dc.jpg', // Replace with actual path
         connecticut: 'project/src/lincolnmemorial.jpg',
-        DC: 'project/src/nationalmall.jpg',
+        dc: 'project/src/nationalmall.jpg',
         'new york': 'project/src/whitehouse.jpg',
         california: 'dc.jpg'
     };
