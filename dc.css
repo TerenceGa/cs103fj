@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 #box1 {
     background-image: url("src/dc.jpg");
@@ -44,13 +45,13 @@ nav{
     box-sizing: border-box; /* Makes sure padding is included in the width */
 }
 
-nav li a{
+nav li{
     list-style: none;
     font-size: 1vw; /* Reduced from 1.2vw to give more space */
     padding: 10% 1%; /* Reduced horizontal padding */
     color: navy;
     display: block; /* Ensure each nav item is on its own line */
-    text-decoration: none
+
 }
 
 nav ul {
