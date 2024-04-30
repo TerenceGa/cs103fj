@@ -50,6 +50,7 @@ nav li a{
     padding: 10% 1%; /* Reduced horizontal padding */
     color: navy;
     display: block; /* Ensure each nav item is on its own line */
+    text-decoration: none
 }
 
 nav ul {
