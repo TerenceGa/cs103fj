@@ -38,7 +38,7 @@ p{
     font-size: 1.2vw;
 }
 
-nav {
+nav a{
     background-color: #D3D3D3;
     width: 60%;
     box-sizing: border-box; /* Makes sure padding is included in the width */
